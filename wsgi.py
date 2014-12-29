@@ -42,7 +42,7 @@ if not os.path.exists(tmp_dir):
 #@+node:lee.20141221203113.57: ** student setting
 std_class = 'b'
 std_list = None
-ta_mode = True
+ta_mode = false
 ta_list = None
 
 if std_class == 'b':
