@@ -40,7 +40,7 @@ if not os.path.exists(data_dir):
 if not os.path.exists(tmp_dir):
     os.makedirs(tmp_dir)
 #@+node:lee.20141221203113.57: ** student setting
-std_class = 'a'
+std_class = 'b'
 std_list = None
 ta_mode = True
 ta_list = None
