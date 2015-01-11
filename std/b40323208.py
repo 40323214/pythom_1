@@ -13,22 +13,30 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '吳信褘'
+        self.name = '羅文均'
         # 你的學號
-        self.number = '40323214'
+        self.number = '40323208'
         # 你的班級
-        self.classes = '四設計一乙'
+        self.classes = '設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/40323214/abc.git'
+        self.github_repo_url = 'https://github.com/40323208/2014cp_project_40323208.git'
         # 你的 openshift app
-        self.openshift_url = 'http://403232143-40323214.rhcloud.com/'
+        self.openshift_url = 'http://b40323208-40323208.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('第11週', 86), ('第12週', 86), ('期末自評', 86)]
+        self.evaluation = [('作業', 80), ('練習', 78), ('總分', 80)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/CbuiE410hHATHfDM'
+        self.photo_url = 'https://copy.com/dKfcJJjroD1e'
         # 這裡是心得
         self.my_remark = """
-        這學期裡面，從一開始完全不懂這堂課在學什麼，一直到最後學會了許多東西。像是我們近端的編輯器python，還有裡面所需要用的一些語法，def()函式、if的使用、prnt()、return在遠端中所必須使用的語法等……。而在可攜式環境中有openshift、github、bibucket、自己的隨身碟等……。在openshift上更是瞭解到了很多東西，要創建鑰匙，利用pyghon編輯器裡面的檔案管理員，git cloneo 自己的openshift，編輯裡面的wsgi檔案，在用cd 資料夾、git add . 、git remote –m “”、git push將編輯好的檔案推回openshift 、完成這學期教學目的-猜數字遊戲等……。在學習這些的過程中，有些地方都會有點不懂，但還好友TA、同學的幫忙，讓我獲益良多，可惜在這學期中只能夠學到利用複製老師的範本去修改內容，期望以後能學到自己完整的打出屬與自己的程式。
+        到後面有越多東西要同步，所以也越多東西要統整並上推，有時真的會混亂然後不知道怎麼進行下一步。
+
+當自己在進行時，常常卡住，也無法解決，就要尋問同學，並和同學一起討論.提出自己觀點.哪裡錯誤要加以改正，如果找不出為何不能上推，大家就更卯足全勁的思考討論.詢問老師和TA，最後成功解決，很有成就感也謝謝同學的互相幫助。
+
+上推到 Github 和 Openshift 的步驟，大多相同，只是有些小地方會忽略，導致錯誤，要再多加注意。
+
+這幾次作業中也學到了之前不知道的指令，像是: 有時要先 git pull 再 git push ，因為是遠端而且共用，所以要先將資料拉過來，加入自己的資料後，再上推。
+
+做期末報告，真的有種瀕臨崩潰的感覺，尤其是卡關的時候，但是當作業漸漸完成，心裡真的開心，也覺得自己從中學習到了什麼，有吸收進步。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template

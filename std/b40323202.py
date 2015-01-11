@@ -13,22 +13,22 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '吳信褘'
+        self.name = '林姿馨'
         # 你的學號
-        self.number = '40323214'
+        self.number = '40323202'
         # 你的班級
-        self.classes = '四設計一乙'
+        self.classes = '設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/40323214/abc.git'
+        self.github_repo_url = 'https://github.com/40323202/2014cp_project_40323202.git'
         # 你的 openshift app
-        self.openshift_url = 'http://403232143-40323214.rhcloud.com/'
+        self.openshift_url = 'http://b40323202-40323202.rhcloud.com/doCheck'
         # 你的自評
-        self.evaluation = [('第11週', 86), ('第12週', 86), ('期末自評', 86)]
+        self.evaluation = [('Project 7', 95), ('Project 8', 95), ('Project 9', 95)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/CbuiE410hHATHfDM'
+        self.photo_url = 'https://copy.com/MWbKHNXOSyj6Pkvd'
         # 這裡是心得
         self.my_remark = """
-        這學期裡面，從一開始完全不懂這堂課在學什麼，一直到最後學會了許多東西。像是我們近端的編輯器python，還有裡面所需要用的一些語法，def()函式、if的使用、prnt()、return在遠端中所必須使用的語法等……。而在可攜式環境中有openshift、github、bibucket、自己的隨身碟等……。在openshift上更是瞭解到了很多東西，要創建鑰匙，利用pyghon編輯器裡面的檔案管理員，git cloneo 自己的openshift，編輯裡面的wsgi檔案，在用cd 資料夾、git add . 、git remote –m “”、git push將編輯好的檔案推回openshift 、完成這學期教學目的-猜數字遊戲等……。在學習這些的過程中，有些地方都會有點不懂，但還好友TA、同學的幫忙，讓我獲益良多，可惜在這學期中只能夠學到利用複製老師的範本去修改內容，期望以後能學到自己完整的打出屬與自己的程式。
+        計算機程式是一門很深奧的課程，很榮幸有同學，老師和助教教我，讓我從原來沒有的概念，經過老師的教導和大家的幫助，建立起了一些概念，使我獲益良多。能成功的完成，和指令有很大的關聯性。指令的順序不可以顛倒，也不可以打錯指令。指令一打錯就無法成功的執行，就會失敗。所以一定要給電腦正確的指令，電腦才能成功的跑出我想要的結果。在就讀高職期間，完全沒有學習任何和程式有關的課程，剛開始學時感到非常的困難，最後到弄懂並成功的完成時，很高興的知道自己也能完成一開始自己覺得無法完成的事情。從今以後要繼續的努力把不懂的事情弄懂，加油!
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template

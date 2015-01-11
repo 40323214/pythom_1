@@ -42,10 +42,10 @@ if not os.path.exists(tmp_dir):
 #@+node:lee.20141221203113.57: ** student setting
 std_class = 'b'
 std_list = None
-ta_mode = false
+ta_mode = True
 ta_list = None
 
-if std_class == 'b':
+if std_class == 'a':
     std_list = [["403231{0:02d}".format(s), "active"] for s in range(1, 58)]
 else:
     std_list = [['40031226', 'active'], ['40223216', 'active']] + [["403232{0:02d}".format(s), "active"] for s in range(1, 57)]
